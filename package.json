@@ -4,8 +4,8 @@
   "description": "setting environments for node application",
   "main": "server.js",
   "scripts": {
-    "dev": "set NODE_ENV=development&& node server.js",
-    "prod": "set NODE_ENV=production&& node server.js"
+    "dev": "set NODE_ENV=development node server.js",
+    "prod": "set NODE_ENV=production node server.js"
   },
   "author": "Rahil Hussain Shaikh",
   "license": "ISC",
